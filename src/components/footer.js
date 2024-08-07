@@ -1,7 +1,8 @@
 import "./footer.css";
 import React from 'react';
+import LinkedIn from "./linkedin";
 
-import{FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter} from "react-icons/fa"
+import{FaFacebook, FaHome, FaMailBulk, FaPhone, FaTwitter} from "react-icons/fa"
 const Footer = () => {
   return (
     <div className="footer">
@@ -30,9 +31,10 @@ const Footer = () => {
                     Developer of this page and It was done using react js.
                 </p>
                 <div className="social">
-                <FaFacebook size={30} style={{color:"#fff",marginRight:"1rem"}}/>
+                <FaFacebook size={30} style={{color:"#fff",marginRight:"1rem"}} />
                 <FaTwitter size={30} style={{color:"#fff",marginRight:"1rem"}}/>
-                <FaLinkedin size={30} style={{color:"#fff",marginRight:"1rem"}}/>
+                <LinkedIn/>
+               
                
                 </div>
             </div>
