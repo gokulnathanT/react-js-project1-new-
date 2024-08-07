@@ -15,7 +15,7 @@
 }
 .hero-img::before{
     content: "";
-    background: url("https://cdn.pixabay.com/photo/2024/01/15/11/36/batman-8510022_1280.png");
+    background: url("X:\React_App\app2\src\assets\batman1.jpg");
     background-size: cover;
     background-position: center top;
     height: 100%;

@@ -1,7 +1,7 @@
 import "./heroimg.css";
 
 import React from 'react';
-import Introimg from "../assets/batman1.jpg";
+import Introimg from "../assets/self pic_1.jpg";
 import { Link } from "react-router-dom";
 
 
@@ -13,7 +13,7 @@ const heroimg = () => {
       </div>
       <div className="content">
         <p>Hi,I'm Gokulnathan</p>
-        <h1>React Projectttt</h1>
+        <h1>React Project</h1>
         <div>
             <Link to={"/project"} className="btn">Projects</Link>
             <Link to={"/contact"} className="btn btn-light">Contact</Link>
