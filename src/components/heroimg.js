@@ -1,7 +1,7 @@
 import "./heroimg.css";
 
 import React from 'react';
-import Introimg from "../assets/self pic_1.jpg";
+import Introimg from "../assets/self pic_3.jpg";
 import { Link } from "react-router-dom";
 
 
