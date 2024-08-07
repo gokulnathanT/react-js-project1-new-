@@ -15,7 +15,7 @@
 }
 .hero-img::before{
     content: "";
-    background-image: image("../assets/batman1.jpg");
+    background-image: url("../assets/batman1.jpg");
     background-size: cover;
     background-position: center top;
     height: 100%;
