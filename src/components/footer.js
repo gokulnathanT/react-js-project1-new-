@@ -3,7 +3,7 @@ import React from 'react';
 import LinkedIn from "./linkedin";
 import Whatsapp from "./whatsapp";
 
-import{FaFacebook, FaHome, FaMailBulk, FaWhatsapp, FaTwitter} from "react-icons/fa"
+import{FaFacebook, FaHome, FaMailBulk, FaTwitter} from "react-icons/fa"
 const Footer = () => {
   return (
     <div className="footer">
