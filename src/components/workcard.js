@@ -12,8 +12,8 @@ import { NavLink } from "react-router-dom";
         <p>{props.text}</p>
         <p>{props.tech}</p>
         <div className="pro-btns">
-            <NavLink to={props.view} className="btn">VIEW</NavLink>
-            <NavLink to="url.com" className="btn">SOURCE</NavLink>
+            <NavLink to={props.view} className="btn" target="_blank">VIEW</NavLink>
+            <NavLink to={props.source} className="btn" target="_blank">SOURCE</NavLink>
         </div>
     </div>
 </div>

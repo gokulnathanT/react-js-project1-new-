@@ -17,6 +17,7 @@ import WorkCardData from "./workcarddata";
                     text={val.text}
                     tech={val.tech}
                     view={val.view}
+                    source={val.source}
                     />
                 )
             })}
