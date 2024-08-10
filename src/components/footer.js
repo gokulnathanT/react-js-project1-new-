@@ -2,6 +2,7 @@ import "./footer.css";
 import React from 'react';
 import LinkedIn from "./linkedin";
 import Whatsapp from "./whatsapp";
+import Mail from "./mail";
 
 import{FaFacebook, FaHome, FaMailBulk, FaTwitter} from "react-icons/fa"
 const Footer = () => {
@@ -20,7 +21,7 @@ const Footer = () => {
                     <h4><Whatsapp/>Whatsapp</h4>
                 </div>
                 <div className="email">
-                    <h4><FaMailBulk size={20} style={{color:"#fff",marginRight:"2rem"}}/>Mailtogokul727@gmail.com</h4>
+                    <h4><Mail/>Mailtogokul727@gmail.com</h4>
                 </div>
             </div>
             <div className="right">
