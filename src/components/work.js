@@ -15,6 +15,7 @@ import WorkCardData from "./workcarddata";
                     imgsrc={val.imgsrc}
                     title={val.title}
                     text={val.text}
+                    tech={val.tech}
                     view={val.view}
                     />
                 )

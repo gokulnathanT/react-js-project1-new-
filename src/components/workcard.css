@@ -21,6 +21,7 @@
 .project-title{
     color: #fff;
     padding: 1rem 0;
+    text-align: center;
 }
 .pro-details p{
     padding-bottom: 1rem;
@@ -32,10 +33,12 @@
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 0;
+    
 }
 
 .pro-btns .btn{
     padding: 0.5rem 1rem;
+    
 }
  @media screen and (max-width:740px) {
     .project-container{
