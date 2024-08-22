@@ -5,7 +5,7 @@ import { FaMailBulk} from 'react-icons/fa';
 function Mail() {
   return (
     <a href="mailto:mailtogokul1727@gmail.com" target="_blank" rel="noopener noreferrer">
-      <FaMailBulk size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+      <FaMailBulk size={35} style={{ color: "#fff", marginRight: "1rem" }} />
     </a> 
   );
 }

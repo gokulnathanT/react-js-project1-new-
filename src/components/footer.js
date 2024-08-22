@@ -4,14 +4,14 @@ import LinkedIn from "./linkedin";
 import Whatsapp from "./whatsapp";
 import Mail from "./mail";
 
-import{FaFacebook, FaHome, FaMailBulk, FaTwitter} from "react-icons/fa"
+import{FaFacebook, FaHome, FaTwitter} from "react-icons/fa"
 const Footer = () => {
   return (
     <div className="footer">
         <div className="footer-container">
             <div className="left">
                 <div className="location">
-                  <FaHome size={20} style={{color:"#fff",marginRight:"2rem"}}/>  
+                  <FaHome size={35} style={{color:"#fff",marginRight:"2rem"}}/>  
                   <div>
                     <p>Coimbatore,TN</p>
                     <p>India.</p>
@@ -33,8 +33,8 @@ const Footer = () => {
                     Developer of this page and It was done using react js.
                 </p>
                 <div className="social">
-                <FaFacebook size={30} style={{color:"#fff",marginRight:"1rem"}} />
-                <FaTwitter size={30} style={{color:"#fff",marginRight:"1rem"}}/>
+                <FaFacebook size={35} style={{color:"#fff",marginRight:"1rem"}} />
+                <FaTwitter size={35} style={{color:"#fff",marginRight:"1rem"}}/>
                 <LinkedIn/>
                
                

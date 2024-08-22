@@ -5,7 +5,7 @@ import { FaWhatsapp} from 'react-icons/fa';
 function Whatsapp() {
   return (
     <a href="https://wa.me/qr/3WA3O77QYTDCF1" target="_blank" rel="noopener noreferrer">
-      <FaWhatsapp size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+      <FaWhatsapp size={35} style={{ color: "#fff", marginRight: "1rem" }} />
     </a> 
   );
 }
